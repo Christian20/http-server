@@ -44,7 +44,7 @@ server.on('request', (req, res) => {
     res.write('<body>');
     res.write('<ul>');
     res.write('<li>Hello Isaac!</li>');
-    res.write('<li>What are your thoughts on astronomy?');
+    res.write('<li>What are your thoughts on astronomy?</li>');
     res.write('</ul>');
     res.write('</body>');
     res.write('</html>');
